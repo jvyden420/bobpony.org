@@ -1,0 +1,2 @@
+// When the user scrolls down 20px from the top of the document, show the button
+(function(a){function k(p,n,h){p.addEventListener(n,h)};k(a,function(){f()});var b=document,c=b.body,d=b.documentElement,g=b.getElementById("topBtn");function e(p){return p.scrollTop>20};function h(p,v){p.style.display=v};function i(p){p.scrollTop=0};function f(){if(e(c)||e(b))h(g,"block");else h(g,"none");}k(g,"click",function(){i(c);i(d);})})(window);

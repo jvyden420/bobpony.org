@@ -15,7 +15,7 @@
   {% if page.path contains '_posts' %}<meta name="date" content="{{ page.date | date: "%Y-%m-%d" }}" scheme="YYYY-MM-DD">{% else %}{% endif %}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{% if page.path contains '_posts' %}Bob Pony Blog{% else %}Bob Pony{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Bob Pony{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - Bob Pony {% if page.path contains '_posts' %}Blog{% else %}{% endif %}{% else %}Bob Pony{% endif %}">
   <meta property="og:url" content="https://bobpony.org{{ page.url }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
   <meta property="og:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg">
@@ -26,11 +26,13 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@TheBobPony" />
   <meta name="twitter:creator" content="@TheBobPony" />
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony{% endif %}" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - Bob Pony {% if page.path contains '_posts' %}Blog{% else %}{% endif %}{% else %}Bob Pony{% endif %}" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
   <meta name="twitter:image" content="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s176-c-k-no-mo-rj-c0xffffff/photo.jpg">
   <link rel="icon" href="https://yt3.ggpht.com/-BuY9Yg6ri3c/AAAAAAAAAAI/AAAAAAAAAAA/s_-Dd29VH5Q/s88-c-k-no-rj-c0xffffff/photo.jpg" type="image/jpg" sizes="16x16">
   <script src="/js/navbar.js"></script>
+  <script src="/js/top.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/top.css">
 </head>
 
 <body style="background-color: #444444;">

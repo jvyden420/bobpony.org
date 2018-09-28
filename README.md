@@ -1,5 +1,6 @@
 # [BobPony.org](https://bobpony.org)
 Simple website that you see on [BobPony.org](https://bobpony.org), proudly hosted by GitHub Pages. Also, helped out by other [contributors](https://github.com/TheBobPony/bobpony.org/graphs/contributors). :ok_hand:
+[![Discord](https://discordapp.com/api/guilds/251862462343806976/widget.png)](https://discord.gg/wZSfjEx)
 
 ## Materials used
 - [Bulma](https://bulma.io) for the CSS Framework
@@ -10,4 +11,4 @@ Simple website that you see on [BobPony.org](https://bobpony.org), proudly hoste
 Please do not copy this website without permission from me, thanks.
 
 ## Contributing
-Feel free to contribute to this website, like fixing any spelling errors or any errors that you encounter on this website. Any fixes will gladly be accepted. Please e-mail me at BobPony@outlook.com if you are interested in being a collaborator, then we'll talk about it.
+Feel free to [contribute](https://github.com/TheBobPony/bobpony.org/wiki/Contributing) to this website, like fixing any spelling errors or any errors that you encounter on this website. Any fixes will gladly be accepted. Please e-mail me at BobPony@outlook.com if you are interested in being a collaborator, then we'll talk about it.

@@ -2,3 +2,11 @@
 # used for local debugging/development
 # without GitHub Pages
 _site/
+# MacOS in nutshell
+.DS_Store
+# Cachey trash
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.dll
+.db

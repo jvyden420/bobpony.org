@@ -68,41 +68,6 @@ layout: blank
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="/community" class="navbar-link {% if page.url == "/community" %}is-active{% endif %}">
-            Community
-          </a>
-          <div class="navbar-dropdown is-boxed is-hidden-mobile">
-            <a class="navbar-item " href="https://discord.gg/wZSfjEx">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-discord"></i>
-                </span>
-                <strong>Discord Server</strong>
-              </span>
-            </a>
-            <a class="navbar-item " href="https://github.com/TheBobPony/bobpony.org/graphs/contributors">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <strong>GitHub Contributors</strong>
-              </span>
-            </a>
-            <a class="navbar-item " href="https://github.com/TheBobPony/bobpony.org/wiki">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-book"></i>
-                </span>
-                <strong>Wiki on GitHub</strong>
-              </span>
-            </a>
-            <!-- <a href="/partners" class="navbar-item">
-  Partners
-</a> -->
-
-          </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
           <a href="/support" class="navbar-link {% if page.url == "/support" %}is-active{% endif %}">
             Support
           </a>
@@ -115,10 +80,6 @@ layout: blank
                 <strong>Status</strong>
               </span>
             </a>
-            <!-- <a href="/partners" class="navbar-item">
-  Partners
-</a> -->
-
             <a class="navbar-item " href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link">
               <span>
                 <span class="icon">
@@ -168,7 +129,6 @@ layout: blank
           </form>
         </div>
       </div>
-
     </div>
   </div>
   </div>
@@ -231,8 +191,8 @@ layout: blank
                 &nbsp; Share on Google+
               </span>
             </a>
-            <hr class="dropdown-divider">
-            <a class="navbar-item" href="https://github.com/TheBobPony/bobpony.org/issues/new/choose">
+            <hr class="dropdown-divider is-hidden-mobile">
+            <a class="navbar-item is-hidden-mobile" href="https://github.com/TheBobPony/bobpony.org/issues/new/choose">
               <span>
                 <span class="icon">
                   <i class="fas fa-exclamation-circle fa-lg"></i>
@@ -255,6 +215,8 @@ layout: blank
   </div>
 </section>
 {% include announcement.html %} {{content}}
+<button class="button is-rounded is-medium" onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-up fa-lg"></i></button>
+<br />
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
@@ -262,7 +224,7 @@ layout: blank
         <div class="column">
           <h3>Stay together</h3>
           <div class="buttons has-addons patch-force-center">
-            <span class="button is-danger" onclick="location.href='https://www.youtube.com/bobpony'">
+            <span class="button is-danger is-rounded" onclick="location.href='https://www.youtube.com/bobpony'">
               <i class="fab fa-youtube fa-lg"></i>
             </span>
             <span class="button is-info" onclick="location.href='https://twitter.com/TheBobPony'">
@@ -271,33 +233,29 @@ layout: blank
             <span class="button is-black" onclick="location.href='https://steamcommunity.com/groups/BobPony'">
               <i class="fab fa-steam-symbol fa-lg"></i>
             </span>
-            <span class="button is-primary" onclick="location.href='https://www.twitch.tv/bobpony'">
+            <span class="button is-primary" style="background-color:#6441a5;border:0" onclick="location.href='https://www.twitch.tv/bobpony'">
               <i class="fab fa-twitch fa-lg"></i>
             </span>
             <span class="button is-black" onclick="location.href='https://github.com/TheBobPony'">
               <i class="fab fa-github fa-lg"></i>
             </span>
-            <span class="button" onclick="location.href='https://gitlab.com/BobPony'">
+            <span class="button" style="background-color:#fc6d26;border:0" onclick="location.href='https://gitlab.com/BobPony'">
               <i class="fab fa-gitlab fa-lg"></i>
             </span>
-            <span class="button" onclick="location.href='https://www.reddit.com/r/BobPony/'">
+            <span class="button" style="background-color:#ff4301;border:0" onclick="location.href='https://www.reddit.com/r/BobPony/'">
               <i class="fab fa-reddit fa-lg"></i>
             </span>
-            <span class="button" style="background-color:#7289DA;border:0" onclick="location.href='https://discord.me/bobpony'">
+            <span class="button is-rounded" style="background-color:#7289DA;border:0" onclick="location.href='https://discord.me/bobpony'">
               <i class="fab fa-discord fa-lg"></i>
             </span>
           </div>
-          <!-- <br>
-<a href="mailto:contact@bobpony.org"><i class="fas fa-envelope"></i> E-mail</a> -->
           <br>
-          <a href="mailto:bobpony@outlook.com">
-            <i class="fas fa-envelope"></i> E-mail</a>
+          <a class="button is-rounded is-medium" href="mailto:bobpony@outlook.com">
+            <span class="icon"><i class="fas fa-envelope"></i></span><span>E-mail</span></a>
         </div>
-        <div class="column">
+        <div class="column is-hidden-mobile">
           <h3>Mini navigation</h3>
           <a href="/blog">Blog</a>
-          <br>
-          <a href="/community">Community</a>
           <br>
           <a href="/downloads">Downloads</a>
           <br>
@@ -306,7 +264,7 @@ layout: blank
           <a href="/support">Support</a>
           <br>
         </div>
-        <div class="column">
+        <div class="column is-hidden-mobile">
           <h3>Additional Links</h3>
           <a href="/about">About</a>
           <br>
@@ -319,6 +277,7 @@ layout: blank
       <p>
         <i class="far fa-copyright"></i> Bob Pony 2014 - 2018
       </p>
+      <p>Created by Bob Pony with the help of <a href="https://github.com/TheBobPony/bobpony.org/graphs/contributors" class="has-text-white"> contributors</a>. <a href="https://github.com/TheBobPony/bobpony.org" class="has-text-white"><i class="fab fa-github"></i></a></p>
     </div>
   </div>
 </footer>

@@ -10,43 +10,43 @@ category: reviews
 ---
 <a name="summary"></a>
 # Summary
-This PC I've found at the thrift store today as of writing this post will be officially be replacing my old Hewlett-Packard Compaq D530 CMT (Not throwing it away, just gonna store it somewhere) since the computer is starting to have issues and of course it's understandable due to its age since I've had the pc since early 2008. The pc will be officially be replacing my old HP D530 CMT since I'll migrate the parts like the RAM considering that the pc came with no ram at all and no hard drive whatsoever which that would include the SSD from it. Not only that, I'll migrate the PCI devices like my USB 2.0 card and the Wireless network card. The primary reason why I've retired my old HP computer is because it had issues like recognizing the RAM (I've tried cleaning the slots and the ram, but no difference), also this pc has some more modern technology like PCI express, even though it might be PCI express 1.1 slots... It's much better than AGP and the legacy PCI since PCI cards are not good due to the speed of it even if you used a PCI to PCIe converter it will be bottlenecked by the speeds of PCI, also the AGP slot is very obsolete since there's not enough good GPUs for the poor AGP slot which is a huge problem.
+This PC I've found at the thrift store today as of writing this post will be officially be replacing my old Hewlett-Packard Compaq D530 CMT (Not throwing it away, just going to store it somewhere) since the computer is starting to have issues and of course it's understandable due to its age since I've had the pc since early 2008. This pc will officially replace my old HP D530 CMT since I'll migrate the parts like the RAM considering that the pc came with no ram at all and no hard drive whatsoever which that would include the SSD from it. Not only that, I'll migrate the PCI devices like my USB 2.0 card and the Wireless network card. The primary reason why I've retired my old HP computer is because it had issues like recognizing the RAM (I've tried cleaning the slots and the ram, but no difference), also this pc has some more modern technology like PCI express, even though it might be PCI express 1.1 slots... It's much better than AGP and the legacy PCI since PCI cards are not good due to the speed of it even if you used a PCI to PCIe converter it will be bottlenecked by the speeds of PCI, also the AGP slot is very obsolete since there's not enough good GPUs for the poor AGP slot which is a huge problem.
 <a name="specs"></a>
 # System specifications
 Processor: AMD Athlon 64 X2 3800+
 
 RAM: 2 GB DDR1
 
-IntegrGPU: NVIDIA GeForce 6100
+Integrated GPU: NVIDIA GeForce 6100
 
-SSD: 120 GB Sandisk (Added by me)
+SSD: 120 GB SanDisk (Added by me)
 
 Model: Gateway GT5028
 
 Original operating system it first came with: Windows XP Media Center Edition 2005
 <a name="gettingit"></a>
 # Getting the PC
-One day, I was at the thrift store and I've was looking around in the electronic department, then I've found this machine for $7.99. I thought it was a steal considering it has an AMD Athlon 64 X2 and has DDR1 SLOTS! Not only that, I've believed that this PC would be a ton better than my old HP D530 since the AMD Athlon 64 cpus have more power than the Pentium 4. I was quite impressed of how lightweight this PC is, unlike my HP Compaq D530 CMT.
+One day, I was at the thrift store and I've was looking around in the electronic department, then I've found this machine for $7.99. I thought it was a steal considering it has an AMD Athlon 64 X2 and has DDR1 SLOTS! Not only that, I've believed that this PC would be a ton better than my old HP D530 since the AMD Athlon 64 CPUs have more power than the Pentium 4. I was quite impressed of how lightweight this PC is, unlike my HP Compaq D530 CMT.
 <a name="puttingos"></a>
 ## Putting an operating system on it
-Since I wasn't to sure what hardware the machine really had and I wanted to do some testing first before putting an old OS like Windows XP, so I've decided that Windows 10 would be more suited since it should have most of the drivers for this PC and sure enough, it did. The Windows 10 version I've used as an evaluation copy just for testing it out on this machine and see how well it could handle Windows 10. I wasn't really surprised that Windows 10 wasn't very optimized for this computer since it felt slow and wasn't really fluid which had some features lacking like the Acrylic effects (See Gallery) considering the operating system is mainly designed for modern machines in mind. Don't worry, this Windows 10 install is just a temporary install.
+Since I wasn't too sure what hardware the machine really had and I wanted to do some testing first before putting an old OS like Windows XP, so I've decided that Windows 10 would be more suited since it should have most of the drivers for this PC and sure enough, it did. The Windows 10 version I've used as an evaluation copy just for testing it out on this machine and see how well it could handle Windows 10. I wasn't really surprised that Windows 10 wasn't very optimized for this computer since it felt slow and wasn't really fluid which had some features lacking like the Acrylic effects (See Gallery) considering the operating system is mainly designed for modern machines in mind. Don't worry, this Windows 10 install is just a temporary install.
 <a name="win10boot"></a>
 ## Windows 10 starting up under a minute
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/czmUjSHgi4o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 Not bad considering it's on the SSD.
 <a name="limitations"></a>
 ## Limitations
-- Windows 8.1 x64 and higher will not work at all, so 32-bit version has to be used.
-- Windows 10 runs poorly for doing any heavy related task such as gaming and uses a lot of cpu usage during the first few minutes after starting up as seen here.
+- Windows 8.1 x64 and higher will not work at all, so 32-bit version must be used.
+- Windows 10 runs poorly for doing any heavy related task such as gaming and uses a lot of CPU usage during the first few minutes after starting up as seen here.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Windows 10 be mining bitcoins <a href="https://t.co/LQ2ykr4NPR">pic.twitter.com/LQ2ykr4NPR</a></p>&mdash; Bob Pony (@TheBobPony) <a href="https://twitter.com/TheBobPony/status/1017869696094425094?ref_src=twsrc%5Etfw">July 13, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-As you can see, it's not really worth using Windows 10 on this machine whatsoever unless you're running the LTSB/LTSC version since that version is less bloated or do tweaking with Windows 10. Later on, I'll discuss why Windows XP is more suited on this machine like around the end of this blog post, especially being used as an retro gaming machine.
+As you can see, it's not worth using Windows 10 on this machine whatsoever unless you're running the LTSB/LTSC version since that version is less bloated or do tweaking with Windows 10. Later, I'll discuss why Windows XP is more suited on this machine like around the end of this blog post, especially being used as a retro gaming machine.
 <a name="gaming"></a>
 # Gaming comparison
 <a name="win10gaming"></a>
 ## Gaming on Windows 10
-There was totally no regrets!
+There were totally no regrets!
 ### Portal 1
 <video width="640" height="360" controls>
   <source src="https://cdn.discordapp.com/attachments/251863047587627008/467519455313002507/20180713223441.MP4" type="video/mp4">
@@ -112,7 +112,7 @@ MBD: <a href="http://www.userbenchmark.com/System/Gateway-GT5028/92855">Gateway 
   <source src="https://cdn.discordapp.com/attachments/251863047587627008/468454761239281664/20180716123023.MP4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-After trying out Windows 10 on this machine, I've felt this machine was more suited for Windows XP considering the sticker on the machine itself says "Designed for Windows XP", even though Windows 10 was able to be installed... It felt very slow to use even though the machine has an SSD, mainly during on startup the OS uses like 100% of the cpu for a few minutes then it would calm down. Also, it's a huge potato to game in Windows 10 even with "Game Mode" turned on. After experiencing the Windows 10 on the machine. I've felt it was time to downgrade back to good old Windows XP and see the huge difference in performance. The performance of Windows XP was huge and played games a ton better than Windows 10 with "Gaming Mode", what a pure joke on this machine. Also, Windows XP was a ton more snapper than Windows 10 especially since it doesn't use a ton of the CPU when starting up. Overall, this machine is very worth it for a retro gaming PC and maybe a game server too since I've used this pc for a bit when I was playing Half-Life 2 Deathmatch with my friends last night.
+After trying out Windows 10 on this machine, I've felt this machine was more suited for Windows XP considering the sticker on the machine itself says "Designed for Windows XP", even though Windows 10 could be installed... It felt very slow to use even though the machine has an SSD, mainly during on startup the OS uses like 100% of the CPU for a few minutes then it would calm down. Also, it's a huge potato to game in Windows 10 even with "Game Mode" turned on. After experiencing the Windows 10 on the machine. I've felt it was time to downgrade back to good old Windows XP and see the huge difference in performance. The performance of Windows XP was huge and played games a ton better than Windows 10 with "Gaming Mode", what a pure joke on this machine. Also, Windows XP was a ton more snapper than Windows 10 especially since it doesn't use a ton of the CPU when starting up. Overall, this machine is very worth it for a retro gaming PC and maybe a game server too since I've used this pc for a bit when I was playing Half-Life 2 Deathmatch with my friends last night.
 
 ![Windows XP Media Center](https://i.imgur.com/a48Pz3Z.jpg "Windows XP Media Center")
 <a name="issues"></a>
@@ -120,7 +120,7 @@ After trying out Windows 10 on this machine, I've felt this machine was more sui
 Some of the issues I've experienced with this PC is sometimes it may not want to post, but that's not a huge problem. Another thing is if a USB Flash drive is plugged in when turning on the PC, it will lock up at the BIOS POST test screen, it happens on a certain USB flash drive I have.
 <a name="conclusion"></a>
 # Conclusion
-This PC was surely worth the upgrade mainly due to its PCI express slots which is a standard feature that every new computer has nowadays, and I've felt it was time to retire my old HP computer that I've had since 2008 because things were aging not so well and it felt very obsolete for me because mainly due to the support of the hardware like AGP is very obsolete and no actually great GPUs for it and the PCI slot isn't good enough either due to its low speeds compared to PCI Express. Personally, I've felt that this PC is certainly a lot better than the old HP PC pc, and it was very easy to migrate the components from the HP pc like the RAM since it's DDR1 which they both use, the PCI cards since they both have PCI slots, including the SSD since they also both have SATA ports too. Overall, this PC is worth it.
+This PC was surely worth the upgrade mainly due to its PCI express slots which is a standard feature that every new computer has nowadays, and I've felt it was time to retire my old HP computer that I've had since 2008 because things were aging not so well and it felt very obsolete for me because mainly due to the support of the hardware like AGP is very obsolete and no actually great GPUs for it and the PCI slot isn't good enough either due to its low speeds compared to PCI Express. Personally, I've felt that this PC is certainly a lot better than the old HP PC, and it was very easy to migrate the components from the HP pc like the RAM since it's DDR1 which they both use, the PCI cards since they both have PCI slots, including the SSD since they also both have SATA ports too. Overall, this PC is worth it.
 <a name="gallery"></a>
 # Gallery
 ## CPU-Z

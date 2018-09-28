@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pentium III PC (Retro PC
+title: Pentium III PC (Retro PC)
 ---
 <div class="columns">
   <div class="column">
