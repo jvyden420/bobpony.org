@@ -135,31 +135,25 @@ layout: blank
   </div>
   </div>
 </nav>
-<section class="hero is-dark is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-narrow is-hidden-mobile" style="width: 85px;">
-          <i class="{% if page.icon %}{{ page.icon }} fa-4x"></i>{% else %}fas fa-file fa-4x"></i>{% endif %}
-        </div>
-        <div class="column">
-          <p class="title">
-            {{ page.title }}
-          </p>
-          <p class="subtitle">
+
+<div class="container">
+<br />
+<div class="columns">
+<div class="column">
+<h1 class="title">{{ page.title }}</h1>
+<p class="subtitle">
             {% if page.path contains '_posts' %}Posted on {{ page.date | date: '%B %d, %Y' }} by {{ page.author }}{% else %}{{ page.description }} {% endif %}
           </p>
-        </div>
-      </div>
-      {{ page.qa1 }} {{ page.qa2 }}
-
-      <div class="dropdown is-hoverable">
+</div>
+<div class="column is-narrow">
+<a class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}"><i class="fas fa-edit fa-lg"></i></a><a class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/issues/new/choose"><i class="fas fa-exclamation-circle fa-lg"></i></a>
+<div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
           <button class="button is-rounded" aria-haspopup="true" aria-controls="dropdown-menu">
             <span class="icon is-small">
-              <i class="far fa-file"></i>
+              <i class="fas fa-share-square fa-lg"></i>
             </span>
-            <span>Page actions</span>
+            <span>Share</span>
             <span class="icon is-small">
               <i class="fas fa-angle-down" aria-hidden="true"></i>
             </span>
@@ -183,37 +177,13 @@ layout: blank
                 &nbsp; Share on Facebook
               </span>
             </a>
-            <a class="navbar-item" href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-google-plus fa-lg"></i>
-                </span>
-                &nbsp; Share on Google+
-              </span>
-            </a>
-            <hr class="dropdown-divider is-hidden-mobile">
-            <a class="navbar-item is-hidden-mobile" href="https://github.com/TheBobPony/bobpony.org/issues/new/choose">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-exclamation-circle fa-lg"></i>
-                </span>
-                &nbsp; Report issue
-              </span>
-            </a>
-            <a class="navbar-item is-hidden-mobile" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-edit fa-lg"></i>
-                </span>
-                &nbsp; Edit on GitHub
-              </span>
-            </a>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+</div>
+</div>
+</div>
+<hr />
 {% include announcement.html %} {{content}}
 <button class="button is-rounded is-medium" onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-up fa-lg"></i></button>
 <br />

@@ -13,16 +13,12 @@ qa1: <a class="button is-primary is-rounded" href="/feed.xml" target="_blank"><s
 	{% for p in paginator.posts %}
       <div class="box smallbox">
         <div class="columns">
-          <div class="column is-narrow">
-            <p class="has-text-centered">
-              <i class="{% if p.icon %}{{ p.icon }} fa-3x"></i>{% else %}fas fa-file fa-4x"></i>{% endif %}</p>
-          </div>
           <div class="column">
 
             <h2 class="title is-4">
               <a href="{{ p.url }}">{{ p.title }}</a> {% if p.category %} <a href="/blog/{{ p.category }}"><span class="tag is-info is-medium is-rounded">{{ p.category }}</span></a> {% else %}{% endif %}
             </h2>
-            <h3 style="opacity: 0.6;" class="subtitle is-6">{{ p.description}}</h3>
+            <h3 style="opacity: 0.6;" class="subtitle is-6">{{ p.excerpt | strip_html | strip_newlines | truncate: 100 }}</h3>
             <div class="columns">
               <div class="column">
                 <p style="opacity: 0.3;">Posted on {{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</p>
