@@ -5,7 +5,6 @@ icon: far fa-window-restore
 ---
 <a name="programs"></a>
 <h1 class="title is-1 has-text-white has-text-centered"> </h1>
-<div class="container">
   <div class="columns">
     <div class="column">
       <a class="button is-large is-fullwidth is-rounded" href="https://archive.org/details/ChromeFrameArchive01" target="_blank"><span>Google Chrome Frame</span></a>
@@ -22,7 +21,6 @@ icon: far fa-window-restore
       <a class="button is-large is-fullwidth is-rounded" href="https://cdn.discordapp.com/attachments/251863047587627008/476607149771063307/wmminst.exe" target="_blank"><span>Windows Movie Maker 6.0</span></a>
     </div>
   </div>
-</div><br />
 <div class="box">
       <h1 class="title">
         <i class="fab fa-internet-explorer"></i> Internet Explorer

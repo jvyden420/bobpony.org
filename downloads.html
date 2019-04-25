@@ -2,13 +2,13 @@
 layout: page
 title: Downloads
 description: Downloads for everyone's needs.
-permalink: /downloads
+permalink: /downloads/
 icon: fas fa-cloud-download-alt
 ---
 
 <div id="content">
   <div class="container">
-    <div class="tabs is-toggle is-toggle-rounded is-centered is-fullwidth is-medium box">
+    <div class="tabs is-toggle is-toggle-rounded is-centered is-fullwidth is-medium">
       <ul>
         {% for d in site.downloads %}
         <li>
@@ -23,7 +23,8 @@ icon: fas fa-cloud-download-alt
     <div class="has-text-centered">
     </div><br /> {% for d in site.downloads %}
     <a name="{{ d.id }}"></a>
+	<div class="box">
     <h1 class="title has-text-centered">
-      <i class="{{ d.icon }}"></i> {{ d.title }}</h1> {{ d.content }} {% endfor %}
+      <i class="{{ d.icon }}"></i> {{ d.title }}</h1> {{ d.content }}</div> {% endfor %}
   </div>
 </div>

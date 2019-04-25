@@ -4,7 +4,6 @@ title: Updates
 icon: fas fa-sync
 ---
 <a name="updates"></a>
-<div class="container">
   <div class="columns">
     <div class="column">
       <a class="button is-large is-fullwidth is-rounded" href="https://msfn.org/board/topic/159597-guide-to-installing-and-updating-windows-nt-40-workstation/" target="_blank"><span>Windows  NT 4.0</span></a>
@@ -15,7 +14,6 @@ icon: fas fa-sync
     <div class="column">
       <a class="button is-large is-fullwidth is-rounded" href="http://www.majorgeeks.com/mg/getmirror/microsoft_windows_2000_unofficial_sp,1.html" target="_blank"><span>Win2K SP5 Unofficial</span></a>
     </div>
-  </div>
 </div><br />
 
 <div class="columns">

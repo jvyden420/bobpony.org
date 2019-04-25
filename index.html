@@ -1,83 +1,28 @@
 ---
-layout: page
-title: Home
-description: The front page of BobPony.org, just navigate around here to explore.
-icon: fas fa-home
+layout: blank
 ---
 
-<div id="content">
-  <div class="container">
-    <br />
-    <h1 class="title has-text-centered">Where do you want to go?</h1>
-    <div class="columns">
-      <div class="column">
-	  <a class="button is-large is-fullwidth is-rounded" href="https://discord.me/bobpony">
-              <span class="icon"><i class="fab fa-discord fa-lg has-text-white"></i></span>
-            <span>Discord Community</span>
-        </a>
-
-      </div>
-      <div class="column">
-	  <a class="button is-large is-fullwidth is-rounded" href="https://youtube.com/bobpony">
-              <span class="icon"><i class="fab fa-youtube fa-lg has-text-danger"></i></span>
-            <span>YouTube Channel</span>
-        </a>
-      </div>
-      <div class="column">
-	  <a class="button is-large is-fullwidth is-rounded" href="/support">
-              <span class="icon"><i class="fas fa-hands-helping fa-lg"></i></span>
-            <span>Get Support</span>
-        </a>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-	  <a class="button is-large is-fullwidth is-rounded" href="https://raspberrype.bobpony.org">
-              <span class="icon"><i class="fab fa-windows fa-lg"></i></span>
-            <span>Raspberry PE</span>
-        </a>
-      </div>
-      <div class="column">
-	  <a class="button is-large is-fullwidth is-rounded" href="https://docs.google.com/document/d/e/2PACX-1vRNC5tYAfcMR1SQ_PMtxdmTQmYmCNX7vHAZWhczojXPm2eVH4RiFg8-bk33Cb5GGMES8ITvAufVZK3m/pub">
-              <span class="icon"><i class="fas fa-clipboard-list fa-lg"></i></span>
-            <span>non-SSE2 list</span>
-        </a>
-      </div>
-      <div class="column">
-        <a class="button is-large is-fullwidth is-rounded" href="https://github.com/TheBobPony/bobpony.org/wiki">
-              <span class="icon"><i class="fas fa-clipboard-list fa-lg"></i></span>
-            <span>Wiki on GitHub</span>
-        </a>
-      </div>
-    </div>
-
-  <br />
-  <h1 class="title has-text-centered">Latest content</h1>
-  <div class="columns">
-  <div class="column">
-  <div class="box">
-            <h1 class="title">Latest Post</h1>
-            <h2 class="is-size-4">{% for p in site.posts limit: 1 %}<a href="{{ p.url }}">{{ p.title }}</a></h2>
-            <h2 class="is-size-6">{{ p.description}}</h2>
-            <h2 class="is-size-6">{{ p.date | date: '%B %d, %Y' }} by {{ p.author }}</p>
-            {% endfor %}
-</div>
-			</div>
-</div>
-  <br />
-<br />
-  <div class="box">
-      <div class="columns is-vcentered">
-        <div class="column is-8">
-          <div class="bsa-cpc">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <ins class="adsbygoogle" style="display:inline-block;width:320px;height:100px" data-ad-client="ca-pub-4190226953949743" data-ad-slot="1775594253"></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
+<head>
+  <link href="css/main.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+</head>
+{% include nav.html %}
+    <section class="hero is-fullheight has-text-centered header is-black">
+        <div class="hero-body">
+            <div class="container">
+                <img alt="logo" class="animated fadeInDown faster logo" src="https://yt3.ggpht.com/a-/AAuE7mBfX4OE1hnGYfKmv4-IqDx4a33U0h__UjsC8g=s288-mo-c-c0xffffffff-rj-k-no">
+                <div class="animated fadeInUp faster has-text-centered">
+                    <h1 class="title has-text-white is-size-1">Bob Pony</h1>
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="link" title="YouTube Channel"> <span class="icon is-large"> <i class="icons fab fa-youtube fa-3x"></i> </span> </a>
+                            <a href="https://twitter.com/TheBobPony" class="link" title="@TheBobPony"> <span class="icon is-large"> <i class="icons fab fa-twitter fa-3x"></i> </span> </a>
+							<a href="https://discord.me/bobpony" class="link" title="Discord Server"> <span class="icon is-large"> <i class="icons fab fa-discord fa-3x"></i> </span> </a>
+                            <a href="https://github.com/TheBobPony" class="link" title="GitHub"> <span class="icon is-large"> <i class="icons fab fa-github fa-3x"></i> </span> </a>
+							<a href="mailto:me@bobpony.org" class="link" title="E-mail"> <span class="icon is-large"> <i class="icons fas fa-envelope fa-3x"></i> </span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-  </div><br />
-  </div>
-</div>
+    </section>

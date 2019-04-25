@@ -2,189 +2,21 @@
 layout: blank
 ---
 
-<nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="dropdown navigation">
-
-  <div class="navbar-start container">
-    <div class="navbar-brand">
-      <a href="/" class="navbar-brand">
-        {% avatar TheBobPony size=60%}
-      </a>
-      <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-    </div>&nbsp;&nbsp;
-    <div id="navbarMenuHeroA" class="navbar-menu">
-      <div class="navbar-start">
-        <a href="/blog" class="navbar-item {% if page.url == "/blog/" %}is-active{% endif %}">
-          Blog
-        </a>
-          <a href="/downloads" class="navbar-item {% if page.url == "/downloads" %}is-active{% endif %}">
-            Downloads
-          </a>
-        <a href="/gallery" class="navbar-item {% if page.url == "/gallery" %}is-active{% endif %}">
-          Gallery
-        </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href="/videos" class="navbar-link {% if page.url == "/videos" %}is-active{% endif %}">
-            Videos
-          </a>
-          <div class="navbar-dropdown is-boxed is-hidden-mobile">
-            <a class="navbar-item" href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw/videos">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-video"></i>
-                </span>
-                <strong>All videos</strong>
-              </span>
-            </a>
-            <a class="navbar-item" href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw/playlists">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-star"></i>
-                </span>
-                <strong>Playlists</strong>
-              </span>
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item" href="https://www.youtube.com/watch?v=x7vZW-qnj8c&list=UUAZzz2Dd9Xh6vTjNcxhqPZw" target="_blank">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-youtube"></i>
-                </span>
-                <strong>Watch latest video</strong>
-              </span>
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item " href="https://docs.google.com/forms/d/e/1FAIpQLScvtP5oNmCvEeITR5EO5E3H17_rjKVg1iOGV4DUt_XSOpppAg/viewform">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-video"></i>
-                </span>
-                <strong>Submit video idea</strong>
-              </span>
-            </a>
-          </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href="/support" class="navbar-link {% if page.url == "/support" %}is-active{% endif %}">
-            Support
-          </a>
-          <div class="navbar-dropdown is-boxed is-hidden-mobile">
-            <a class="navbar-item " href="https://status.bobpony.org">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-stethoscope"></i>
-                </span>
-                <strong>Status</strong>
-              </span>
-            </a>
-            <a class="navbar-item " href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-comments"></i>
-                </span>
-                <strong>Send Feedback</strong>
-              </span>
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item " href="/support/discord">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-discord"></i>
-                </span>
-                <strong>Discord Community</strong>
-              </span>
-            </a>
-            <a class="navbar-item " href="/support/youtube">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-youtube"></i>
-                </span>
-                <strong>YouTube Channel</strong>
-              </span>
-            </a>
-            <a class="navbar-item " href="/support/fixerrors">
-              <span>
-                <span class="icon">
-                  <i class="fas fa-exclamation-circle"></i>
-                </span>
-                <strong>Fixing errors on this website</strong>
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="navbar-end">
-        <div class="navbar-item field">
-          <form action="https://google.com/search" method="get">
-            <p class="control has-icons-right">
-              <input class="input is-rounded" name="q" id="search" type="search" placeholder="Search site with Google">
-              <input type="hidden" name="sitesearch" value="https://bobpony.org" />
-              <span class="icon is-small is-right">
-                <i class="fas fa-search"></i>
-              </span>
-            </p>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-</nav>
+{% include nav.html %}
 
 <div class="container">
 <br />
 <div class="columns">
 <div class="column">
-<h1 class="title">{{ page.title }}</h1>
-<p class="subtitle">
-            {% if page.path contains '_posts' %}Posted on {{ page.date | date: '%B %d, %Y' }} by {{ page.author }}{% else %}{{ page.description }} {% endif %}
-          </p>
+<h1 class="title has-text-centered">{{ page.title }}</h1>
 </div>
 <div class="column is-narrow">
-<a class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}"><i class="fas fa-edit fa-lg"></i></a><a class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/issues/new/choose"><i class="fas fa-exclamation-circle fa-lg"></i></a>
-<div class="dropdown is-hoverable">
-        <div class="dropdown-trigger">
-          <button class="button is-rounded" aria-haspopup="true" aria-controls="dropdown-menu">
-            <span class="icon is-small">
-              <i class="fas fa-share-square fa-lg"></i>
-            </span>
-            <span>Share</span>
-            <span class="icon is-small">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </div>
-        <div class="dropdown-menu" id="dropdown-menu" role="menu">
-          <div class="dropdown-content">
-            <a class="navbar-item" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-twitter fa-lg"></i>
-                </span>
-                &nbsp; Tweet this page
-              </span>
-            </a>
-            <a class="navbar-item" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}">
-              <span>
-                <span class="icon">
-                  <i class="fab fa-facebook fa-lg"></i>
-                </span>
-                &nbsp; Share on Facebook
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
+<a title="Edit this page on GitHub" class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/edit/master/{{ page.path }}"><i class="fas fa-edit fa-lg"></i></a><a title="Report issue with this page" class="button is-rounded" href="https://github.com/TheBobPony/bobpony.org/issues/new/choose"><i class="fas fa-exclamation-circle fa-lg"></i></a>
 </div>
 </div>
 </div>
 <hr />
-{% include announcement.html %} {{content}}
+{{content}}
 <button class="button is-rounded is-medium" onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-chevron-up fa-lg"></i></button>
 <br />
 <footer class="footer">
@@ -193,59 +25,27 @@ layout: blank
       <div class="columns">
         <div class="column">
           <h3>Stay together</h3>
-          <div class="buttons has-addons patch-force-center">
-            <span class="button is-danger is-rounded" onclick="location.href='https://www.youtube.com/bobpony'">
-              <i class="fab fa-youtube fa-lg"></i>
-            </span>
-            <span class="button is-info" onclick="location.href='https://twitter.com/TheBobPony'">
-              <i class="fab fa-twitter fa-lg"></i>
-            </span>
-            <span class="button is-black" onclick="location.href='https://steamcommunity.com/groups/BobPony'">
-              <i class="fab fa-steam-symbol fa-lg"></i>
-            </span>
-            <span class="button is-primary" style="background-color:#6441a5;border:0" onclick="location.href='https://www.twitch.tv/bobpony'">
-              <i class="fab fa-twitch fa-lg"></i>
-            </span>
-            <span class="button is-black" onclick="location.href='https://github.com/TheBobPony'">
-              <i class="fab fa-github fa-lg"></i>
-            </span>
-            <span class="button" style="background-color:#fc6d26;border:0" onclick="location.href='https://gitlab.com/BobPony'">
-              <i class="fab fa-gitlab fa-lg"></i>
-            </span>
-            <span class="button" style="background-color:#ff4301;border:0" onclick="location.href='https://www.reddit.com/r/BobPony/'">
-              <i class="fab fa-reddit fa-lg"></i>
-            </span>
-            <span class="button is-rounded" style="background-color:#7289DA;border:0" onclick="location.href='https://discord.me/bobpony'">
-              <i class="fab fa-discord fa-lg"></i>
-            </span>
-          </div>
-          <br>
-          <a class="button is-rounded is-medium" href="mailto:bobpony@outlook.com">
-            <span class="icon"><i class="fas fa-envelope"></i></span><span>E-mail</span></a>
-        </div>
-        <div class="column is-hidden-mobile">
-          <h3>Mini navigation</h3>
-          <a href="/blog">Blog</a>
-          <br>
-          <a href="/downloads">Downloads</a>
-          <br>
-          <a href="/gallery">Gallery</a>
-          <br>
-          <a href="/support">Support</a>
-          <br>
+          <div class="columns">
+                        <div class="column has-text-centered">
+                            <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="link" title="YouTube Channel"> <span class="icon is-large"> <i class="icons fab fa-youtube fa-3x"></i> </span> </a>
+                            <a href="https://twitter.com/TheBobPony" class="link" title="@TheBobPony"> <span class="icon is-large"> <i class="icons fab fa-twitter fa-3x"></i> </span> </a>
+							<a href="https://discord.me/bobpony" class="link" title="Discord Server"> <span class="icon is-large"> <i class="icons fab fa-discord fa-3x"></i> </span> </a>
+                            <a href="https://github.com/TheBobPony" class="link" title="GitHub"> <span class="icon is-large"> <i class="icons fab fa-github fa-3x"></i> </span> </a>
+							<a href="mailto:me@bobpony.org" class="link" title="E-mail"> <span class="icon is-large"> <i class="icons fas fa-envelope fa-3x"></i> </span> </a>
+                        </div>
+                    </div>
         </div>
         <div class="column is-hidden-mobile">
           <h3>Additional Links</h3>
-          <a href="/about">About</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScVBwxsxExujo1EXkiyI9vvfOCqoeNEbyxJyd9VqWyMHIfs2w/viewform?usp=sf_link">Send Feedback</a>
           <br>
           <a href="https://status.bobpony.org">Status</a>
           <br>
-          <a href="/toolbox">Toolbox</a>
           <br>
         </div>
       </div>
       <p>
-        <i class="far fa-copyright"></i> Bob Pony 2014 - 2018
+        <i class="far fa-copyright"></i> Bob Pony 2014 - 2019
       </p>
       <p>Created by Bob Pony with the help of <a href="https://github.com/TheBobPony/bobpony.org/graphs/contributors" class="has-text-white"> contributors</a>. <a href="https://github.com/TheBobPony/bobpony.org" class="has-text-white"><i class="fab fa-github"></i></a></p>
     </div>

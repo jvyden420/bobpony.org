@@ -1,0 +1,40 @@
+<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="dropdown navigation">
+
+  <div class="navbar-start container">
+    <div class="navbar-brand">
+      <a href="/" class="navbar-brand">
+        {% avatar TheBobPony size=60%}
+      </a>
+      <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </div>&nbsp;&nbsp;
+    <div id="navbarMenuHeroA" class="navbar-menu">
+      <div class="navbar-start">
+        <a href="/blog" class="navbar-item {% if page.url == "/blog/" %}is-active{% endif %}">
+          Blog
+        </a>
+          <a href="/downloads" class="navbar-item {% if page.url == "/downloads/" %}is-active{% endif %}">
+            Downloads
+          </a>
+        <a href="/gallery" class="navbar-item {% if page.url == "/gallery" %}is-active{% endif %}">
+          Gallery
+        </a>
+          <a href="/support" class="navbar-item {% if page.url == "/support" %}is-active{% endif %}">
+            Support
+          </a>
+		<a href="https://status.bobpony.org" class="navbar-item">
+            Status
+          </a>
+      </div>
+      <div class="navbar-end">
+        
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</nav>
