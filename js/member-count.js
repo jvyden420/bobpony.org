@@ -1,1 +1,0 @@
-(function(){fetch("https://discordapp.com/api/guilds/251862462343806976/widget.json").then(function(r){return r.json()}).then(function(c){document.getElementById("memberCount").innerText=" There are currently "+c.members.length+" members online."})})()
