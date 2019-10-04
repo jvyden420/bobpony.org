@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Drivers
-icon: fas fa-microchip
 ---
 <a name="drivers"></a>
   <div class="columns">

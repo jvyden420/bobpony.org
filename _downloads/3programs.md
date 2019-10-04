@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Programs
-icon: far fa-window-restore
 ---
 <a name="programs"></a>
 <h1 class="title is-1 has-text-white has-text-centered"> </h1>

@@ -1,16 +1,12 @@
 <!DOCTYPE html>
-<html class="{% if page.url == "/" %}{% else %}has-navbar-fixed-top"{% endif %}">
+<html>
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} - Bob Pony {% if page.path contains '_posts' %}Blog{% else %}{% endif %}{% else %}Bob Pony{% endif %}</title>
   <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
-
-
-<link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/darkly/bulmaswatch.min.css" media="(prefers-color-scheme: dark)">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-  <link rel="stylesheet" href="/css/a_fix.css">
+  <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/darkly/bulmaswatch.min.css" media="(prefers-color-scheme: dark)">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Welcome to the world of Bob Pony.{% endif %}">
   <meta name="keywords" content="{% if page.path contains '_posts' %}{{ page.categories }}{% else %}Bob Pony, BP, BPC, Discord, Twitter, YouTube, Blog, bobpony.org, projects{% endif %}">

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Windows
-icon: fab fa-windows
 ---
 <a name="mswin"></a>
 <div class="columns">
