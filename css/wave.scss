@@ -1,0 +1,22 @@
+---
+#jekyll is nice so this has to be included
+---
+
+.hero-body {
+  background: linear-gradient(10deg, #070f1a, #0065d9);
+  background-size: 400% 400%;
+  padding: 60px 42px;
+  animation: wave 8s ease infinite;
+
+  @keyframes wave {
+    0% {
+      background-position: 0% 27%
+    }
+    50% {
+      background-position: 100% 0%
+    }
+    100% {
+      background-position: 0% 27%
+    }
+  }
+}
