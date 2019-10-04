@@ -12,3 +12,18 @@ Please do not copy this website without permission from me, thanks.
 
 ## Contributing
 Feel free to [contribute](https://github.com/TheBobPony/bobpony.org/wiki/Contributing) to this website, like fixing any spelling errors or any errors that you encounter on this website. Any fixes will gladly be accepted. Please e-mail me at BobPony@outlook.com if you are interested in being a collaborator, then we'll talk about it.
+
+### Running locally for development
+If you wish to contribute and want to test changes locally on your own system, here's how.
+
+If you don't already have bundler, install it using [these instructions.](https://jekyllrb.com/docs/installation/)
+
+Once you have bundler, its a simple matter of running
+
+- `bundle install`
+
+to install all necessary packages, and then
+
+- `bundle exec jekyll serve`
+
+to host the website locally.
