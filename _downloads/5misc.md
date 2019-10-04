@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Misc.
-icon: fas fa-question-circle
 ---
 <a name="misc"></a>
 <div class="columns">

@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Updates
-icon: fas fa-sync
 ---
 <a name="updates"></a>
   <div class="columns">
