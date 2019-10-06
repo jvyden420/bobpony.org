@@ -5,6 +5,7 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 ---
+
 Hello everyone, this is Bob Pony posting once again and it's been almost a month since I've written my last post since I just felt not very motivated to make a new post nor make a over huge overhaul of this website, but maybe during my next school vacation that starts next month, maybe I'll spice something up, well... hopefully. So let's dive into some things been going on!
 
 Along with some questions for me to answer!

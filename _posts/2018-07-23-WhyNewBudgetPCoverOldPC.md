@@ -7,6 +7,7 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 ---
+
 There are many old computers on websites like eBay, but is it really worth getting one, especially if it's your first computer/laptop? Short answer, NO. Long answer, depends. keep on reading.
 
 Here's the reasons why you shouldn't buy a old computer especially if it's over 10 years old.

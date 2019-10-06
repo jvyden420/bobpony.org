@@ -14,4 +14,4 @@ Here's where you write what is wrong.
 Browser: 
 
 ## Screenshots
-Provide some screenshots in order to help us distinguish the issue.
+Provide some screenshots in order to help distinguish the issue.

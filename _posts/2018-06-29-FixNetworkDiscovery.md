@@ -7,6 +7,7 @@ comments: true
 author-link: https://bobpony.org
 description: How to fix Network Discovery problems especially if you have Windows 10
 ---
+
 # Do you have issues where your computer refuses to be shown in the Network at all or any other computers not showing?
 It probably looks something like this, assuming that you already have turned on Network Discovery.
 

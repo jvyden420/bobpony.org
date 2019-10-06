@@ -8,7 +8,9 @@ permalink: /downloads/
 <div id="content">
   <div class="container">
     <div class="has-text-centered">
-    </div><br /> {% for d in site.downloads %}
+    </div>
+    <br>
+    {% for d in site.downloads %}
     <h1 class="title has-text-centered">
       {{ d.title }}</h1> {{ d.content }} {% endfor %}
   </div>
