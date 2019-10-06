@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Windows
 ---
+
 <a name="mswin"></a>
 <div class="columns">
   <div class="column">
@@ -11,6 +11,7 @@ title: Windows
     <a class="button is-large is-fullwidth is-rounded" href="https://www.microsoft.com/en-us/software-download/windows8ISO" target="_blank"><span>Windows 8.1</span></a>
   </div>
 </div>
+
 <div class="columns">
   <div class="column">
     <a class="button is-large is-fullwidth is-rounded" href="https://drive.google.com/drive/folders/1tUFf3pxXUajyuVlAVsQNiJ7Iai3vQKPD?usp=sharing" target="_blank"><span>Windows 8.0 Evaluation</span></a>

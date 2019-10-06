@@ -8,6 +8,7 @@ author-link: https://bobpony.org
 description: The best tweaks for Windows 10 in my opinion.
 category: tweaks
 ---
+
 Do you not like the way how the way Windows 10 works? Neither do I. Anyways, let's dig into the best tweaks for Windows 10 which are the best in my opinion, feel free to try it out for yourself. I'll keep updating this post later...
 # 1. Removing all the modern/metro apps
 Don't have a use for them? Well I highly recommend you do this "tweak", please note the following...

@@ -8,6 +8,7 @@ author-link: https://bobpony.org
 description: Another wonderful find from the thrift store.
 category: reviews
 ---
+
 <a name="summary"></a>
 # Summary
 This PC I've found at the thrift store today as of writing this post will be officially be replacing my old Hewlett-Packard Compaq D530 CMT (Not throwing it away, just going to store it somewhere) since the computer is starting to have issues and of course it's understandable due to its age since I've had the pc since early 2008. This pc will officially replace my old HP D530 CMT since I'll migrate the parts like the RAM considering that the pc came with no ram at all and no hard drive whatsoever which that would include the SSD from it. Not only that, I'll migrate the PCI devices like my USB 2.0 card and the Wireless network card. The primary reason why I've retired my old HP computer is because it had issues like recognizing the RAM (I've tried cleaning the slots and the ram, but no difference), also this pc has some more modern technology like PCI express, even though it might be PCI express 1.1 slots... It's much better than AGP and the legacy PCI since PCI cards are not good due to the speed of it even if you used a PCI to PCIe converter it will be bottlenecked by the speeds of PCI, also the AGP slot is very obsolete since there's not enough good GPUs for the poor AGP slot which is a huge problem.

@@ -8,6 +8,7 @@ comments: true
 author-link: https://tttie.github.io
 category: update
 ---
+
 # Hello everyone! :wave:
 
 You might of noticed some of the things on this website has been shifted around, that's normal. No need to worry. Anyways, I'll explain the changes that has been done on this website.

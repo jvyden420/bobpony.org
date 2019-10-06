@@ -7,6 +7,7 @@ author: Bob Pony
 comments: true
 author-link: https://bobpony.org
 ---
+
 <p class="has-text-centered title">
   <img src="https://i.imgur.com/l7dLKnT.png" alt="Windows 7 winver"><br />
   Windows 7's winver
